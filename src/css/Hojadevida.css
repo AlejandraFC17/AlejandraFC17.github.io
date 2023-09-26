@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/fotos-premium/habitacion-blanca-techo-que-tiene-mucha-luz_689904-132310.jpg'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #333; /* Cambié el color del texto a un gris oscuro para mejorar la legibilidad */
+    font-family: 'Archivo', sans-serif;
+    font-weight: normal; /* Cambié el peso de la fuente a "normal" para una mejor legibilidad */
+    font-size: 18px; /* Reduje el tamaño de fuente para una mejor legibilidad */
+    line-height: 1; /* Añadí un espaciado entre líneas para una mejor legibilidad */
+    
+}
+
+.name{
+    width: 100%;
+    height: 350px;
+    background: #042A2B;
+    transform: skewY(5deg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.name .content {
+    width: 55%;
+    height: 70%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .content .P-1 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(-5deg);
+    margin-bottom: 0;
+}
+
+.name .content .P-2 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: 25px;
+    transform: skewY(-5deg);
+    margin-top: 0.5;
+    margin-bottom: 0;
+}
+
+.name .img {
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    transform: skewY(-5deg);
+    overflow-x: hidden;
+}
+
+.name .img img{
+    width: 195px; ;
+    height: 186px;
+}
+
+.Info {
+    width: 98%;
+    height: auto;
+    background: #042A2B;
+    margin:4% auto;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Info .TituloSeleccion {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info .TituloInfo {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info .InfoInfo {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+
+.Info1 {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    margin:-3% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Info1 .TituloSeleccion1 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info1 .TituloInfo1 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info1 .InfoInfo1 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Info2 {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    margin:4% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Info2 .TituloSeleccion2 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info2 .TituloInfo2 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info2 .InfoInfo2 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Info3 {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    margin:-3% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Info3 .TituloSeleccion3 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info3 .TituloInfo3 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info3 .InfoInfo3 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Info4 {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    margin:4% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Info4 .TituloSeleccion4 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info4 .TituloInfo4 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info4 .InfoInfo4 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Info li {
+    color: #F0EFF4;
+}
+.Info1 li {
+    color: #F0EFF4;
+}
+.Info2 li {
+    color: #F0EFF4;
+}
+.Info3 li {
+    color: #F0EFF4;
+}
+.Info4 li {
+    color: #F0EFF4;
+}
+
+.Info a {
+    font-family:  'Archivo', sans-serif;
+    display: block;
+    text-align: center;
+    background: #2a6769;
+    color: #F0EFF4;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.Info a:hover {
+    background: #0f4245;
+}
+
+.Redes a {
+    font-family:  'Archivo', sans-serif;
+    display: block;
+    text-align:center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilos para el botón de Facebook */
+.boton-facebook {
+    background-color: #1877f2; /* Color de fondo de Facebook */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el botón de Instagram */
+.boton-instagram {
+    background-color: #405DE6; /* Color de fondo de Instagram */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    font-weight: bold; /* Texto en negrita */
+}
+
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    font-family: 'Archivo', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

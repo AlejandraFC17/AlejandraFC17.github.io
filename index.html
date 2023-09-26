@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="src/css/Hojadevida.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="name">
+        <div class="img">
+            <img src="FotoPerfil.jpg" alt="Foto de perfil">
+        </div>
+        <div class="content">
+            <h2 class="P-1">ALEJANDRA FONSECA CARDONA</h2>
+            <p class="P-2">Técnica en programación para analítica de datos y asistencia administrativa.</p>
+        </div>
+    </header>
+    
+    <div class="Info">
+        <ul>
+            <h2 class="TituloSeleccion">Información Personal</h2>
+            <li><span class="TituloInfo">Nombre y Apellidos:</span>
+                <span class="InfoInfo">Alejandra Fonseca Cardona</span></li>
+            <li><span class="TituloInfo">Correo Electrónico:</span>
+                <span class="InfoInfo">Alejandrafc9908@gmail.com</span></li>
+            <li><span class="TituloInfo">Dirección:</span>
+                <span class="InfoInfo">Progresar 1, Casa 12 - Chinchiná Caldas</span></li>
+            <li><span class="TituloInfo">Teléfono:</span>
+                <span class="InfoInfo">3218040914</span></li>
+        </ul>
+        <a href="pages/hojadevida2.html" target="_blank">Ver Perfil Profesional</a>
+    </div>
+    <section>
+        <h2> Comentarios y Sugerencias </h2>
+        <form id="comentariosForm" action="procesar_comentarios.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
+    
+            <label for="comentario">Descripción Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar Comentario">
+        </form>
+    </section>
+    </Section>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
+
+<!--https://www.youtube.com/watch?v=O2UDuwij0UE&t=156s-->

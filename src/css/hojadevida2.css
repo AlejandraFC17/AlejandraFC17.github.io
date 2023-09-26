@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/fotos-premium/habitacion-blanca-techo-que-tiene-mucha-luz_689904-132310.jpg');
+    /* La URL de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #333; /* Cambié el color del texto a un gris oscuro para mejorar la legibilidad */
+    font-family: 'Archivo', sans-serif;
+    font-weight: normal; /* Cambié el peso de la fuente a "normal" para una mejor legibilidad */
+    font-size: 18px; /* Reduje el tamaño de fuente para una mejor legibilidad */
+    line-height: 1.6; /* Añadí un espaciado entre líneas para una mejor legibilidad */
+    
+}
+
+.name{
+    width: 100%;
+    height: 200px;
+    background: #042A2B;
+    transform: skewY(-5deg);
+    border-bottom-left-radius: 30px;
+}
+
+.name .content {
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    left: 25%;
+    
+}
+
+.name .content .P-3 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.Info1 {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    margin:-3% auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.Info1 .TituloSeleccion1 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info1 .TituloInfo1 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info1 .InfoInfo1 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Info2 {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    margin:4% auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.Info2 .TituloSeleccion2 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info2 .TituloInfo2 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info2 .InfoInfo2 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Info3 {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    margin:-3% auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.Info3 .TituloSeleccion3 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info3 .TituloInfo3 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info3 .InfoInfo3 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Info4 {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    margin:4% auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.Info4 .TituloSeleccion4 {
+    color: #F0EFF4;
+    font-family: 'Archivo', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -1%;
+    font-weight: bolder;
+    border-bottom: 2px #F0EFF4 solid;
+}
+
+.Info4 .TituloInfo4 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 2px;
+}
+
+.Info4 .InfoInfo4 {
+    color: #F0EFF4;
+    font-family:  'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Info li {
+    color: #F0EFF4;
+}
+.Info1 li {
+    color: #F0EFF4;
+}
+.Info2 li {
+    color: #F0EFF4;
+}
+.Info3 li {
+    color: #F0EFF4;
+}
+.Info4 li {
+    color: #F0EFF4;
+}
+
+blockquote {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    background-size: cover;
+    background-position: center;
+    color: #F0EFF4 ;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: -3% auto;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative; /* Agrega posición relativa para colocar el contenido del bloque */
+}
+
+/* Asegúrate de ajustar el tamaño y la posición de la imagen según tus necesidades */
+blockquote::before {
+    content: "";
+    background-image: url('https://www.emprendiendohistorias.com/wp-content/uploads/2015/05/Manipular-Tu-Mente-Para-Ser-Exitoso-e1457100037636.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    width: 190px; /* Ancho de la imagen */
+    height: 190px; /* Altura de la imagen */
+    position: absolute;
+    left: 1100px; /* Ajusta la posición horizontal de la imagen */
+    top: 50%; /* Ajusta la posición vertical de la imagen */
+    transform: translateY(-50%);
+    border-radius: 50%; /* Para hacer que la imagen tenga forma circular */
+    border: 3px solid #fff; /* Borde blanco alrededor de la imagen */
+}
+
+table {
+    width: 99%;
+    height: auto;
+    background: #042A2B;
+    color: #F0EFF4;
+    margin: -3% auto;
+    padding: 20px;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #042A2B; /* Color de fondo para los encabezados */
+    color: #F0EFF4; /* Color de texto para los encabezados */
+}
+
+tr:nth-child(even) {
+    background-color: #042A2B; /* Cambia el color de fondo para filas pares */
+}
+
+tr:nth-child(odd):hover {
+    background-color: #1b4446; /* Cambia el color de fondo al pasar el puntero sobre filas impares */
+}
+
+tr:nth-child(even):hover {
+    background-color: #1b4446; /* Cambia el color de fondo al pasar el puntero sobre filas pares */
+}
+
+/* Estilos para el botón de Facebook */
+.boton-facebook {
+    background-color: #1877f2; /* Color de fondo de Facebook */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el botón de Instagram */
+.boton-instagram {
+    background-color: #405DE6; /* Color de fondo de Instagram */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    font-weight: bold; /* Texto en negrita */
+}
