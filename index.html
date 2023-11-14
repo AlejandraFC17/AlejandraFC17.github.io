@@ -4,54 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Vida</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Otros enlaces -->
     <link rel="stylesheet" href="src/css/Hojadevida.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,100&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url('https://img.freepik.com/fotos-premium/habitacion-blanca-techo-que-tiene-mucha-luz_689904-132310.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center center; color: #000000; font-family: 'Archivo', sans-serif; font-weight: normal; font-size: 18px; line-height: 1.6;">
+
     <header class="name">
         <div class="img">
-            <img src="FotoPerfil.jpg" alt="Foto de perfil">
+            <img src="FotoPerfil.jpg" alt="Foto de perfil" class="img-fluid">
         </div>
         <div class="content">
+            <br>
+            <br>
             <h2 class="P-1">ALEJANDRA FONSECA CARDONA</h2>
             <p class="P-2">Técnica en programación para analítica de datos y asistencia administrativa.</p>
         </div>
     </header>
     
-    <div class="Info">
-        <ul>
-            <h2 class="TituloSeleccion">Información Personal</h2>
-            <li><span class="TituloInfo">Nombre y Apellidos:</span>
-                <span class="InfoInfo">Alejandra Fonseca Cardona</span></li>
-            <li><span class="TituloInfo">Correo Electrónico:</span>
-                <span class="InfoInfo">Alejandrafc9908@gmail.com</span></li>
-            <li><span class="TituloInfo">Dirección:</span>
-                <span class="InfoInfo">Progresar 1, Casa 12 - Chinchiná Caldas</span></li>
-            <li><span class="TituloInfo">Teléfono:</span>
-                <span class="InfoInfo">3218040914</span></li>
-        </ul>
-        <a href="pages/hojadevida2.html" target="_blank">Ver Perfil Profesional</a>
+    <div class="container mt-4">
+        <div class="Info">
+            <ul class="list-group">
+                <h2 class="TituloSeleccion mb-4">Información Personal</h2>
+                <li >
+                    <span class="TituloInfo">Nombre y Apellidos:</span>
+                    <span class="InfoInfo">Alejandra Fonseca Cardona</span>
+                </li>
+                <li >
+                    <span class="TituloInfo">Correo Electrónico:</span>
+                    <span class="InfoInfo">Alejandrafc9908@gmail.com</span>
+                </li>
+                <li >
+                    <span class="TituloInfo">Dirección:</span>
+                    <span class="InfoInfo">Progresar 1, Casa 12 - Chinchiná Caldas</span>
+                </li>
+                <li >
+                    <span class="TituloInfo">Teléfono:</span>
+                    <span class="InfoInfo">3218040914</span>
+                </li>
+            </ul>
+            <a href="pages/hojadevida2.html" target="_blank" class="mt-3 btn btn-success">Ver Perfil Profesional</a>
+        </div>
     </div>
-    <section>
-        <h2> Comentarios y Sugerencias </h2>
-        <form id="comentariosForm" action="procesar_comentarios.php" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <div class="container mt-5">
+        <section>
+            <h2> Comentarios y Sugerencias </h2>
     
-            <label for="correo">Correo Electrónico:</label>
-            <input type="email" id="correo" name="correo" required><br><br>
+            <form id="comentariosForm" action="procesar_comentarios.php" method="post">
+                <div class="form-group">
+                    <label for="nombre" class="col-form-label">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+                </div>
     
-            <label for="comentario">Descripción Comentario:</label>
-            <textarea id="comentario" name="comentario" rows="4" required></textarea><br><br>
+                <div class="form-group">
+                    <label for="correo" class="col-form-label">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" class="form-control" required>
+                </div>
     
-            <input type="submit" value="Enviar Comentario">
-        </form>
-    </section>
-    </Section>
+                <div class="form-group">
+                    <label for="comentario" class="col-form-label">Descripción Comentario:</label>
+                    <textarea id="comentario" name="comentario" class="form-control" rows="4" required></textarea>
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Enviar Comentario</button>
+            </form>
+        </section>
+    </div>
+    
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Otros scripts -->
     <script src="src/js/index.js"></script>
+
 </body>
 </html>
+
 
 <!--https://www.youtube.com/watch?v=O2UDuwij0UE&t=156s-->
